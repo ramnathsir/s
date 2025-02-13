@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(13.jpeg);
+}
+.logo{
+    width: 50%;
+    text-align: center;
+
+}
+nav .menu a{
+    width: 100%;
+    height: 200vh;
+    color: white;
+    text-size-adjust: 200px;
+    text-justify: 500px;
+    float: left;
+  
+    
+}
+
+h1{
+    width: 100px;
+    height: 100px;
+    background-image: url(12.png);
+    background-size: cover;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 50px;
+    
+}
