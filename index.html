@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face Attendance System (MongoDB)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Face Attendance System</h2>
+
+    <form id="attendanceForm">
+      <label>Student Name:</label>
+      <input type="text" id="name" required>
+
+      <label>Roll Number:</label>
+      <input type="text" id="roll" required>
+
+      <video id="camera" autoplay playsinline></video>
+      <canvas id="snapshot" style="display:none;"></canvas>
+
+      <button type="button" id="captureBtn">Capture Face</button>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+
+    <hr>
+    <h3>Attendance Records</h3>
+    <div id="records"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
